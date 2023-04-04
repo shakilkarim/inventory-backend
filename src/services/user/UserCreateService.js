@@ -6,7 +6,7 @@ const UserCreateServices = async(Request,DataModel) => {
         return {status:'success', data:data};
 
     }catch(error){
-        return {status:'fail', data:error.toString()}
+        return {status:'failer', data:error.toString()}
     }
 } 
 
